@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="266662628078491"
+    token="7086962210105725767" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="266583672851225"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/hdy/Documents/AntSchool/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="266662628078491" />
+
+</instant-run>

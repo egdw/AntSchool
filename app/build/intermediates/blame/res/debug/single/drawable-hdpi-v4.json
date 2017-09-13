@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/a.jpg",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable-hdpi/a.jpg"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/d.jpg",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable-hdpi/d.jpg"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/e.jpg",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable-hdpi/e.jpg"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/b.jpg",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable-hdpi/b.jpg"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/c.jpg",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable-hdpi/c.jpg"
+    }
+]

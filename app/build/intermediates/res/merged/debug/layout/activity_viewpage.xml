@@ -1,0 +1,281 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView
+        android:id="@+id/scrollview" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            
+            >
+        
+        
+    <FrameLayout
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片标题"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/dot_0"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip" 
+                    android:background="@drawable/dot_focused"/>
+
+                <View
+                    android:id="@+id/dot_1"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip" 
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_2"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip" 
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_3"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip" 
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_4"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip" 
+                    android:background="@drawable/dot_normal"/>
+                
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    
+
+    <LinearLayout
+           android:layout_below="@id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/ib_shake"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="扫一扫" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/ib_groups"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+ />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="报修广场" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/ib_alone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+ />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="考试安排" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_around"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+ />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:text="微提醒" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_coupe"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:text="成绩查询" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_buy"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+ />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:text="我的快递" />
+                    
+                </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/bg_Gray" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        
+        >
+       <com.b334.myview.ListViewForScrollView 
+           android:id="@+id/list"
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           
+           >
+           
+       </com.b334.myview.ListViewForScrollView> 
+        
+        
+    </LinearLayout>
+    
+    
+    </LinearLayout>
+    </ScrollView>
+        
+    <include layout="@layout/bottom_layout"
+
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+         />
+    
+</RelativeLayout>

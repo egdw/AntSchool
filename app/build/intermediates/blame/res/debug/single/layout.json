@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/bottom_layout.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/bottom_layout.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/activity_main1.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/activity_main1.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/activity_more.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/activity_more.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/activity_viewpage.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/activity_viewpage.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/layout/list_item_data.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/layout/list_item_data.xml"
+    }
+]

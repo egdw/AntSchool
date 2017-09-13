@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable/dot_focused.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable/dot_focused.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable/checkbox.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable/checkbox.xml"
+    },
+    {
+        "merged": "/Users/hdy/Documents/AntSchool/app/build/intermediates/res/merged/debug/drawable/dot_normal.xml",
+        "source": "/Users/hdy/Documents/AntSchool/app/src/main/res/drawable/dot_normal.xml"
+    }
+]

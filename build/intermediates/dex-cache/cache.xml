@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bb0fd1c14abdfcd9fb210fdd502e932e75c205f">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/instant-run_728fbda9707e5012d61de6453f37e30f95f6905b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/libs/fastjson-1.1.32.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b270d86c7c21bb6ed117525da2add62a68be9805">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/fastjson-1.1.32_16102f0f89d3a2e9ff172c23637b3473f51e6c47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/libs/commons-logging-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/commons-logging-1.1.1_ed655f0570c8ff98cf6e1796c4e20fbe9ac9dd98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/libs/commons-codec-1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/commons-codec-1.6_d2a22e7d7354ee238aba658bf8365c9e123d7c5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/libs/bcprov-jdk16-1.45.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0612d4afcd33f05a5ffdd9cf835e3bd4e3b44018">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/bcprov-jdk16-1.45_cdf24b5b506442d5f3c1e8c806a79757517cdbe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_61d87c0c27e9262c6585dd1a33fc459b0a24abfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/libs/xUtils-3.1.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea94f9fe2c147efc1b4131d5abe13788f37955af">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/xUtils-3.1.22_82b53760756d9e84d19d0f6aa6e2f57d107b10cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hdy/Documents/AntSchool/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="537bb60b2e69e8d0050b8be88bdb85545000a63c">
+        <dex dex="/Users/hdy/Documents/AntSchool/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_2c6e7ecc3526c86830da670b2a6fbeb0f41c4ce1.jar" />
+    </item>
+
+</items>
